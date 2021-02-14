@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculatold by Hesam Tavakoli (1nj3ct0r) </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="icon" type="image/x-icon" href="https://www.iconarchive.com/download/i14613/iconblock/remixed/calculator.ico">
+	<link rel="stylesheet" href="./Style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<html>
+
+	<head>
+		<title> Calculatold - By Hesam Tavakoli (1nj3ct0r) </title>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="calc" ng-app="appleCalculator" ng-controller="Calculator">
+			<div class="top-part">
+				<a href="#" target="_blank"> Made by Hesam Tavakoli (1nj3ct0r) </a>
+				<div class="back-toppart"></div>
+			</div>
+			<div class="window">
+				<div class="result">
+					<input class="readout" readonly disabled ng-model="console" maxlength="10">
+                    <input class="placehold" type='readonly' disabled placeholder="888888888888888">
+                </div>
+                <div class="plane"></div>
+            </div>
+            <div class="section one">
+                <button class="key" ng-click="clearTotal()">
+				<div class="key_before"> Сls </div>
+			</button>
+                <button class="key">
+				<div class="key_before"> ... </div>
+			</button>
+                <button class="key">
+				<div class="key_before"> ... </div>
+			</button>
+                <button class="key_red" ng-click="clearTotal()">
+				<div class="key_before_red"> Del </div>
+			</button>
+            </div>
+            <div class="section two">
+                <button class="key" ng-click="print(7)">
+				<div class="key_before"> 7 </div>
+			</button>
+                <button class="key" ng-click="print(8)">
+				<div class="key_before"> 8 </div>
+			</button>
+                <button class="key" ng-click="print(9)">
+				<div class="key_before"> 9 </div>
+			</button>
+                <button class="key" ng-click="print(4)">
+				<div class="key_before"> 4 </div>
+			</button>
+                <button class="key" ng-click="print(5)">
+				<div class="key_before"> 5 </div>
+			</button>
+                <button class="key" ng-click="print(6)">
+				<div class="key_before"> 6</div>
+			</button>
+                <button class="key" ng-click="print(1)">
+				<div class="key_before"> 1 </div>
+			</button>
+                <button class="key" ng-click="print(2)">
+				<div class="key_before"> 2 </div>
+			</button>
+                <button class="key" ng-click="print(3)">
+				<div class="key_before"> 3 </div>
+			</button>
+
+                <button class="key_long" ng-click="print(0)">
+				<div class="key_before_long"> 0 </div>
+			</button>
+                <button class="key" ng-click="print('.')">
+				<div class="key_before"> . </div>
+			</button>
+            </div>
+            <div class="section three">
+                <button class="key" ng-click="add()">
+				<div class="key_before"> + </div>
+			</button>
+                <button class="key" ng-click="getPercentage()">
+				<div class="key_before"> % </div>
+			</button>
+                <button class="key" ng-click="subtract()">
+				<div class="key_before"> - </div>
+			</button>
+                <button class="key" ng-click="changePositivity()">
+				<div class="key_before"> -N </div>
+			</button>
+                <button class="key_vertical" ng-click="equal()">
+				<div class="key_before_vertical"> = </div>
+			</button>
+                <button class="key" ng-click="multiply()">
+				<div class="key_before"> × </div>
+			</button>
+                <button class="key" ng-click="divide()">
+				<div class="key_before"> ÷ </div>
+			</button>
+            </div>
+            <div class="btm-part"></div>
+        </div>
+    </body>
+
+    </html>
+    <!-- partial -->
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+    <script src="./Script.js"></script>
+
+</body>
+
+</html>
