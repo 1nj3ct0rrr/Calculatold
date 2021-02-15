@@ -1,10 +1,7 @@
 # Calculatold
 
-<p>
-  <a href="https://1nj3ct0rrr.github.io/Calculatold/">
-    <img width="20%" src="https://uupload.ir/files/xin6_run_online.png" />
-  </a>
-</p>
+<link href='https://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+<a href="#" class="zocial googleplay">Run Online (Demo) &nbsp;</a>
 
 
 This is an old calculator that it's funny and interesting...
