@@ -1,5 +1,5 @@
 # Calculatold
-![Run Online](https://aleen42.github.io/badges/src/github.svg) -> Run online with GitHub free hosting
+Run online with ![Run Online](https://aleen42.github.io/badges/src/github.svg) free hosting
 
 
 This is an old calculator that it's funny and interesting...
