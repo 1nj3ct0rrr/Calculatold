@@ -2,6 +2,8 @@
   Calculatold 
   <a href="https://codepen.io/1nj3ct0r/pen/KKNvdKM">
     <img src="https://img.shields.io/badge/CodePen-black?style=flat&logo=codepen&labelColor=black">
+  </a>
+  <a href="https://repl.it/@hesamtavakoli06/Calculatold">
     <img src="https://img.shields.io/badge/Repl.it-gray?style=flat&logo=repl.it&labelColor=gray">
   </a>
 </h1>
@@ -21,6 +23,8 @@ In each of the following hosting services, you can view the project as a demo ðŸ
 <p>
   <a href="https://Calculatold.hesamtavakoli06.repl.co">
     <img src="https://img.shields.io/badge/Repl.it-gray?style=flat&logo=repl.it&labelColor=gray">
+  </a>
+  <a href="https://1nj3ct0rrr.github.io/Calculatold/">
     <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github&labelColor=black">
   </a>
 </p>
